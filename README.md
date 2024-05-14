@@ -1,6 +1,6 @@
 # Multipaint-container
 
-This is a simple Docker container that allows you to run Multipaint on macOS by encapsulating the application and its dependencies. XQuartz is used to display the GUI.
+This is a simple Docker container that allows you to run [Multipaint](http://multipaint.kameli.net/) on macOS by encapsulating the application and its dependencies. XQuartz is used to display the GUI.
 
 ## Prerequisites
 

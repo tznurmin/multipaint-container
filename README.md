@@ -8,11 +8,15 @@ This is a simple Docker container that allows you to run [Multipaint](http://mul
 
 - [Docker](https://docs.docker.com/engine/install/)
 
-- [XQuartz](https://www.xquartz.org/): after installation, enable "Allow connections from network clients" in the XQuartz security settings and reboot your machine to apply the changes. Further instructions can be found [here](https://gist.github.com/sorny/969fe55d85c9b0035b0109a31cbcb088).
+- [XQuartz](https://www.xquartz.org/): after installation, enable "Allow connections from network clients" in the XQuartz security settings and reboot your machine to apply the changes, finally type xhost +localhost in your terminal to allow connections from localhost. Further instructions can be found [here](https://gist.github.com/sorny/969fe55d85c9b0035b0109a31cbcb088).
 
 
 
 ## Quick start
+Remember to run (if needed)
+```bash
+xhost +localhost
+```
 
 ### Use image from Docker Hub ###
 

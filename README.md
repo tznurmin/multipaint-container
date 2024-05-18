@@ -60,3 +60,12 @@ docker run --rm \
            multipaint
 ```
 Remember to create a directory (e.g. temp) for your images.
+
+## Troubleshooting
+
+1. **Can't connect to X11 window server using 'host.docker.internal:0' as the value of the DISPLAY variable.**
+![Troubleshooting_1](https://i.imgur.com/B2b0YIo.png)
+Fix it by allowing the connections from localhost
+```bash
+xhost +localhost
+```

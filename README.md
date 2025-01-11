@@ -22,7 +22,7 @@ xhost +localhost
 
 1. **Pull the Docker image**
 ```bash
-docker pull tznurmin/multipaint:2024.1p4
+docker pull tznurmin/multipaint:latest
 ```
 
 Now you have the container image. In order to load and save your work, you'll mount a directory inside your filesystem. A directory named _temp_ is used in this example: use mkdir _name_of_your_directory_ in terminal to create one.
@@ -34,7 +34,7 @@ docker run --rm \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v "$(pwd)/temp:/app/savedisk" \
            --name multipaint-container \
-           tznurmin/multipaint:2024.1p4
+           tznurmin/multipaint:latest
 ```
 
 

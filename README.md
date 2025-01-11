@@ -18,7 +18,7 @@ Remember to run (if needed)
 xhost +localhost
 ```
 
-### Use image from Docker Hub ###
+### Use image from Docker Hub to install or update ###
 
 1. **Pull the Docker image**
 ```bash
